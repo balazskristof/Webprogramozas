@@ -6,6 +6,8 @@
 
 ## Órai munka (2 pont)
 
+*Határidő: következő gyakorlatig (február 21. 17:45)*
+
 Generálj táblázatot az `oraimunka.js` fájlban található objektumokat tartalmazó `legok` tömb alapján. Egy objektumot egy sorban jeleníts meg az alábbi feltételek szerint:
  - Jelenjen meg a készlet neve, kódja és ára (1 pont)
  - Az ár `xxxxxx Ft` formátumban jelenjen meg! *Segíthet az első gyakorlaton látott `` `...` `` szöveg!* (0.5 pont)
