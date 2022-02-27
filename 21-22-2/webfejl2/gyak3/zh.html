@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Csoport ZH</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse
+        }
+        .kijeloles {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>AmonGalactica</h1>
+    <table>
+    <tr>
+    <th>Mottó</th>
+    <th>Kulcsszó</th>
+    <th>Szavazatok</th>
+    <th>Kulcsszó</th>
+    </tr>
+    </table><br>
+    <button id="legtobb">Legtöbb szavazatos mottó</button> <button id="szavazas">Szavazás</button><br><br>
+    <input type="text"> <button id="uj">Új javaslat</button>
+    <script>
+        const adatok = [
+            {
+                motto: 'Zűrnélkül az űrben!',
+                szavazat: 3
+            },
+            {
+                motto: 'Öt parsec alatt a Naprendszer körül! (szerk.: a parsec nem sebességet jelöl!!! - G.L.)',
+                szavazat: 1
+            },
+            {
+                motto: 'Legendásan gyorsak vagyunk!',
+                szavazat: 12
+            },
+            {
+                motto: 'Dantuinig meg sem állunk!',
+                szavazat: 0
+            }
+        ];
+    </script>
+    <script src="delegal.js"></script>
+    <script src="zh.js"></script>
+</body>
+</html>
