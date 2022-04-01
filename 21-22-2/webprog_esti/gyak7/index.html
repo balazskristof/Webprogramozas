@@ -1,0 +1,44 @@
+<canvas style="border: 1px solid #ddd;" width="600" height="600"></canvas>
+<script>
+// ismétlődő
+let interval = setInterval(function () {
+    console.log('foo');
+}, 1000);
+clearInterval(interval);
+
+// egyszeri
+let timeout = setTimeout(function() {
+    clearInterval(interval);
+}, 5000);
+clearTimeout(timeout);
+
+// canvas mágia
+let canvas = document.querySelector('canvas');
+let context = canvas.getContext('2d');
+
+context.translate(300, 300);
+context.rotate(45 * Math.PI / 180);
+context.scale(2, 2);
+
+context.beginPath();
+
+context.moveTo(0, -100);
+context.lineTo(0, 100);
+context.scale(2, 2);
+context.moveTo(-100, 0);
+context.lineTo(100, 0);
+
+/*context.translate(300, 300);
+
+context.moveTo(-300, -300);
+context.lineTo(300, 300);*/
+
+context.stroke();
+
+context.resetTransform();
+
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(0, 100);
+context.stroke();
+</script>

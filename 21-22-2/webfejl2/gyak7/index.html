@@ -1,0 +1,40 @@
+<canvas width="600" height="600"></canvas>
+<script>
+
+let interval = setInterval(function () {
+    console.log('foo');
+}, 1000);
+function intervalTorles(){
+    clearInterval(interval);
+}
+intervalTorles();
+
+function blabla() { console.log('blabal'); }
+let timeout = setTimeout(blabla, 5000);
+clearTimeout(timeout);
+
+let canvas = document.querySelector('canvas');
+let context = canvas.getContext('2d');
+
+
+context.beginPath();
+context.translate(300, 300);
+context.rotate(45 * Math.PI / 180);
+context.moveTo(0, -150);
+context.lineTo(0, 150);
+context.translate(10, 150);
+context.rotate(45 * Math.PI / 180);
+context.moveTo(-150, 0);
+context.lineTo(150, 0);
+context.stroke();
+
+context.resetTransform(); // transform művelet: translate, rotate, scale
+
+context.beginPath();
+context.translate(150, 150);
+context.moveTo(0, -150);
+context.lineTo(0, 150);
+context.moveTo(-150, 0);
+context.lineTo(150, 0);
+context.stroke();
+</script>
