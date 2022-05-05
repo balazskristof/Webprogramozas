@@ -1,0 +1,27 @@
+[
+    {
+        "becenev": "Krumpli",
+        "kedvenc_szam": 42,
+        "palacsinta": true,
+        "palacsintaiz": [
+            "Lekváros"
+        ]
+    },
+    {
+        "becenev": "Ági",
+        "kedvenc_szam": 24,
+        "palacsinta": true,
+        "palacsintaiz": [
+            "Kakaós"
+        ]
+    },
+    {
+        "becenev": "Brendon",
+        "kedvenc_szam": 69,
+        "palacsinta": true,
+        "palacsintaiz": [
+            "Kakaós",
+            "Túrós"
+        ]
+    }
+]

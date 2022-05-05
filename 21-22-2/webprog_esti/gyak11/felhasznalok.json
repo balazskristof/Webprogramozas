@@ -1,0 +1,36 @@
+{
+    "admin": {
+        "password": "admin",
+        "emails": [
+            {
+                "subject": "Üdvözli a NeptunMail!4",
+                "sender": "noreply",
+                "text": "<h1>Üdv!<\/h1><p>Üdvözöljük a felhasználóink között!<p><p>Üdvözlettel,<br>NeptunMail adminisztrátor<\/p>",
+                "date": "2022-05-02 18:15"
+            }
+        ]
+    },
+    "admin2": {
+        "password": "123",
+        "emails": [
+            {
+                "subject": "Teszt",
+                "sender": "admin",
+                "text": "helló!\r\n\r\nez egy próba email!\r\n\r\nremélem az str_replace a barátom lesz most.\r\n\r\nüdv",
+                "date": "2022-05-02 18:52"
+            },
+            {
+                "subject": "Teszt",
+                "sender": "admin",
+                "text": "helló!\r\n\r\nez egy próba email!\r\n\r\nremélem az str_replace a barátom lesz most.\r\n\r\nüdv",
+                "date": "2022-05-02 18:52"
+            },
+            {
+                "subject": "Üdvözli a NeptunMail!",
+                "sender": "noreply",
+                "text": "<h1>Üdv!<\/h1><p>Üdvözöljük a felhasználóink között!<p><p>Üdvözlettel,<br>NeptunMail adminisztrátor<\/p>",
+                "date": "2022-05-02 18:13"
+            }
+        ]
+    }
+}

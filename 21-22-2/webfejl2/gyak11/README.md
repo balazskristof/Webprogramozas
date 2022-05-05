@@ -1,0 +1,16 @@
+# NeptunMail
+ - ## Főoldal
+    - Ha nem vagyunk bejelentkezve, ne jelenjen meg semmi
+    - Bejelentkezés után:
+        - Jelenjenek meg a felhasználó levelei
+        - Legyen lehetőség új levelet írni
+ - ## Bejelentkezés
+    - Felhasználónévvel és jelszóval (kötelező megadni őket)
+    - JSON fájlból ellenőrizve az adatokat
+    - Sikeres belépés esetén átirányítás a főoldalra, ahol a bejelentkezés és regisztráció helyett kijelentkezés opció jelenjen meg.
+    - Sikertelen belépés esetén hibaüzenet megjelenítése
+ - ## Regisztráció
+    - Felhasználónévvel és jelszóval (kötelező megadni őket)
+    - JSON fájlból ellenőrizve a felhasználónév egyediségét
+    - Sikeres regisztráció esetén JSON fájlba mentés és átirányítás a főoldalra
+    - Sikertelen regisztráció esetén hibaüzenet megjelenítése

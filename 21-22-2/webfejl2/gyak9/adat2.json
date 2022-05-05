@@ -1,0 +1,30 @@
+[
+    {
+        "nev": "Gipsz Jakab",
+        "eletkor": 22,
+        "aktiv_jogviszony": true,
+        "felvettek_targyak": [
+            "Webprogramozás",
+            "Helyesírás",
+            "Kredit sikkasztás II."
+        ]
+    },
+    {
+        "nev": "II. Gipsz Jakab",
+        "eletkor": 11,
+        "aktiv_jogviszony": false,
+        "felvettek_targyak": []
+    },
+    {
+        "nev": "I. Japsz Gikab",
+        "eletkor": 44,
+        "aktiv_jogviszony": false,
+        "felvettek_targyak": []
+    },
+    {
+        "nev": "I. Japsz Gikab",
+        "eletkor": 44,
+        "aktiv_jogviszony": false,
+        "felvettek_targyak": []
+    }
+]

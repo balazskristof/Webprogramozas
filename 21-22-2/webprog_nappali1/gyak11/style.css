@@ -1,0 +1,16 @@
+.logo::first-letter {
+    font-size: 120%;
+    font-style: italic;
+    color: white;
+    background: linear-gradient(rgb(127, 199, 247), rgb(0, 108, 179));
+    border: 1px solid white;
+    margin-right: 3px;
+    border-radius: 4px;
+    padding: 0px 4px;
+    box-shadow: 3px 3px rgb(96, 96, 96);
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

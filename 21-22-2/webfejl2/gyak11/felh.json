@@ -1,0 +1,13 @@
+[
+    {
+        "username": "admin2",
+        "password": "123",
+        "emails": [
+            {
+                "subject": "Üdvözli a NeptunMail!",
+                "sender": "noreply",
+                "date": "2022-05-02 17:15"
+            }
+        ]
+    }
+]
